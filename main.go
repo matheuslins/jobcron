@@ -11,6 +11,6 @@ func taskWithParams(a int, b string) {
 
 func main() {
 	s := gocron.NewScheduler()
-	s.Every(5).Minutes().Do(taskWithParams, 1, "hello")
+	s.Every(10).Second().Do(taskWithParams, 1, "hello")
 	<- s.Start()
 }
