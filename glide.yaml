@@ -1,0 +1,4 @@
+package: jobcron-processor
+import:
+- package: github.com/jasonlvhit/gocron
+  version: "0.1"

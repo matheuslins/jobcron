@@ -1,0 +1,6 @@
+hash: d31e828b98e008f06871f774272fdb1b5ca55dd4bdf12b7c1e9bb28f3dbf414e
+updated: 2020-04-21T23:16:35.340985-03:00
+imports:
+- name: github.com/jasonlvhit/gocron
+  version: 5c21418a78e8acd5ffefca47dc353df67222e5c8
+testImports: []
